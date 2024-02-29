@@ -47,7 +47,7 @@ public class Transaksi {
             }
         }while (temp!=1);
 
-        System.out.println("]nTransaksi belanja " + member.getNama(idMember) + " sebagai berikut");
+        System.out.println("\nTransaksi belanja " + member.getNama(idMember) + " sebagai berikut");
         System.out.println("Nama Barang \tQty \tHarga \tJumlah \t");
 
         int total=0;
