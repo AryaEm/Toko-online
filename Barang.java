@@ -6,15 +6,15 @@ public class Barang {
    private ArrayList<Integer> harga = new ArrayList<Integer>();
 
    public Barang() {
-      this.namaBarang.add("daimen frifayer");
+      this.namaBarang.add("jeruk goreng");
       this.stok.add(15);
-      this.harga.add(10000);
+      this.harga.add(20000);
       this.namaBarang.add("Semangka rebus");
       this.stok.add(30);
-      this.harga.add(5000);
+      this.harga.add(15000);
       this.namaBarang.add("Cicak bakar");
       this.stok.add(20);
-      this.harga.add(15000);
+      this.harga.add(99000);
       }
       public int getJmlBarang(){
       return this.namaBarang.size();

@@ -41,11 +41,11 @@ public class Transaksi {
             temp=scanner.nextInt();
             if (temp!=99){
                 idBarang.add(temp);
-                System.out.print(barang.getNamaBarang(idBarang.get(i)) + "sebanyak : ");
+                System.out.print(barang.getNamaBarang(idBarang.get(i)) + " sebanyak : ");
                 banyak.add(scanner.nextInt());
                 i++;
             }
-        }while (temp!=1);
+        }while (temp!=99);
 
         System.out.println("\nTransaksi belanja " + member.getNama(idMember) + " sebagai berikut");
         System.out.println("Nama Barang \tQty \tHarga \tJumlah \t");

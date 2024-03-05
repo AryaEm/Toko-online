@@ -6,7 +6,7 @@ public class Laporan {
         System.out.println();
         System.out.println("Tabel Member");
         System.out.println();
-        System.out.println("Nama \tAlamat \t\tTelepon \tSaldo");
+        System.out.println("Nama \tAlamat \tTelepon \tSaldo");
         for (int i = 0; i < x; i++) {
             System.out.println(member.getNama(i)+"\t"+
                 member.getAlamat(i) + "\t" + member.getTelepon(i) + "\t" + member.getSaldo(i));
